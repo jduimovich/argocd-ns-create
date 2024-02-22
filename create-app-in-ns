@@ -1,3 +1,6 @@
-
-
+ 
+if [ -z "$1" ]; then
+     echo "Usage: $0 namespace"
+     exit 0
+fi
 CREATE_NS=$1 envsubst <application.yaml | oc apply -f -

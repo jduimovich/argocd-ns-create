@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     path: ./components
-    repoURL: https://github.com/jduimovich/pac-test
+    repoURL:   https://github.com/jduimovich/argocd-ns-create.git
     targetRevision: main
   destination:
     namespace: $CREATE_NS
