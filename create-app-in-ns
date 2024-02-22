@@ -1,3 +1,3 @@
 
 
-CREATE_NS=$1 envsub application.yaml | oc apply -f -
+CREATE_NS=$1 envsubt application.yaml | oc apply -f -
